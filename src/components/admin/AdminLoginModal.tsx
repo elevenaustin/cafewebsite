@@ -13,8 +13,8 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
   onClose,
   onLoginSuccess,
 }) => {
-  const [username, setUsername] = useState("998800");
-  const [password, setPassword] = useState("pendugpt12345678");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -83,20 +83,10 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
         {/* Modal Body */}
         <div className="p-6 space-y-5">
 
-          {/* Quick Credential Notice Card */}
-          <div className="p-3.5 bg-[#c89355]/10 border border-[#c89355]/30 rounded-xl flex items-start gap-3 text-xs">
-            <KeyRound className="w-4 h-4 text-[#c89355] shrink-0 mt-0.5" />
-            <div>
-              <p className="font-semibold text-[#c89355] mb-0.5 flex items-center gap-1.5">
-                <span>Default Admin Credentials</span>
-                <Sparkles className="w-3 h-3 text-[#c89355]" />
-              </p>
-              <p className="text-neutral-300 font-mono text-[11px] leading-relaxed">
-                Username: <strong className="text-white select-all">{currentCreds.username}</strong>
-                <br />
-                Password: <strong className="text-white select-all">{currentCreds.passwordHash}</strong>
-              </p>
-            </div>
+          {/* Security Banner */}
+          <div className="p-3 bg-emerald-500/10 border border-emerald-500/30 rounded-xl flex items-center gap-2.5 text-xs text-emerald-300">
+            <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+            <span>Authorized Management Access Only. Session encrypted.</span>
           </div>
 
           {/* Error Alert */}
