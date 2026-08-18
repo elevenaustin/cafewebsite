@@ -25,22 +25,17 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu, onOurStory }) => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl">
-          {/* Eyebrow / Tagline Pill */}
-          <div className="inline-flex items-center gap-2 mb-5 px-4 py-1.5 rounded-full bg-[#c89355]/10 border border-[#c89355]/30 backdrop-blur-md shadow-sm">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#c89355] animate-pulse" />
-            <span className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-[#e6b37a]">
+          {/* Eyebrow / Tagline */}
+          <div className="inline-flex items-center gap-2 mb-4">
+            <span className="text-xs sm:text-sm font-semibold uppercase tracking-[0.28em] text-[#c89355]">
               {CAFE.heroSubtitle}
             </span>
           </div>
 
           {/* Main Title */}
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-normal leading-[1.06] tracking-tight mb-6">
-            <span className="block text-[#f4efe9] drop-shadow-md">
-              {CAFE.heroTitle1}
-            </span>
-            <span className="block bg-gradient-to-r from-[#eec28d] via-[#c89355] to-[#f4efe9] bg-clip-text text-transparent italic font-serif font-light drop-shadow-lg">
-              {CAFE.heroTitle2}
-            </span>
+          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-normal leading-[1.05] tracking-tight mb-6 drop-shadow-md">
+            <span className="block text-[#f4efe9]">{CAFE.heroTitle1}</span>
+            <span className="block text-[#c89355] italic font-serif font-normal">{CAFE.heroTitle2}</span>
           </h1>
 
           {/* Description */}

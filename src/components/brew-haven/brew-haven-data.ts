@@ -8,11 +8,11 @@ import cafeAmbienceImg from "@/assets/cafe-ambience.png";
 export const CAFE = {
   name: "Forget Me Not Coffee",
   tagline: "COFFEE & CAFE",
-  heroSubtitle: "✨ YOUR ARTISANAL SANCTUARY",
-  heroTitle1: "Every Sip A Story,",
-  heroTitle2: "Every Cup Pure Magic",
+  heroSubtitle: "YOUR COZY CORNER",
+  heroTitle1: "Good Coffee,",
+  heroTitle2: "Great Moments",
   heroDescription:
-    "Savor roasted single-origin Arabica brews, silky artisanal foams, and handcrafted sweet delights — lovingly served in an ambiance designed for pure warmth and connection.",
+    "Handcrafted coffee made with passion, served in a space designed for comfort and connection.",
   address: "Forget Me Not Coffee",
   mapsUrl: "https://maps.app.goo.gl/5spbRwWCh6JEQNgG8",
   hours: "Mon – Sun | 8:00 AM – 10:00 PM",
