@@ -1,29 +1,25 @@
-# Welcome to your Lovable project
+# Forget Me Not Coffee — Modern Cafe Web Application
 
-This project was built with [Lovable](https://lovable.dev).
+Handcrafted coffee made with passion, served in a space designed for comfort and connection.
 
-## Build with Lovable
+## 🚀 Quick Start (Local Development)
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Make sure you have Node.js installed.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+```bash
+# Install dependencies
+npm install
 
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+# Start the local development server
 npm run dev
 ```
 
-## Built with
+The application will be accessible locally at `http://localhost:8080/`.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## 🛠️ Built With
+
+- **TanStack Start & TanStack Router**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS v4**
+- **Lucide Icons**
